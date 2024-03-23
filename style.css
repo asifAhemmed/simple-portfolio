@@ -1,0 +1,68 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color:#FD6E0A;
+    --secondary-color:#FFF8F3;
+}
+
+/* Utilities */
+body{
+    font-family: "Open Sans", sans-serif;
+    width: 80%;
+    margin: 2em auto;
+}
+.btn-primary{
+    border: 0;
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: .5em 1em;
+    border-radius: .25em;
+}
+.btn-primary:hover{
+    background-color: orange;
+}
+
+/* Typography */
+h1{
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+/* Header */
+
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+span{
+    color: var(--primary-color);
+}
+
+ .nav-list{
+ display: flex;
+ align-items: center;
+ text-decoration: none;
+}
+
+.nav-list-item{
+    margin-right: 2em;
+    list-style-type: none;
+}
+
+.nav-list-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
