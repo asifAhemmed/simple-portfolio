@@ -15,7 +15,7 @@
 /* Utilities */
 body{
     font-family: "Open Sans", sans-serif;
-    
+    background-color: rgb(234, 232, 232, 0.4);
 }
 .btn-primary{
     border: 0;
@@ -128,4 +128,27 @@ span{
     display: flex;
     justify-content: space-between;
     gap: 3em;
+}
+
+/* Work */
+.work{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.work-skill{
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+}
+.skill-card{
+    background-color: #FFFFFF;
+    border-radius: .5em;
+    padding: 1em 2em;
+}
+.skill-card p, .skill-card h3{
+    margin: 1em 0;
 }
