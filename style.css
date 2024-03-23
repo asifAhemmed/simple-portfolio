@@ -31,7 +31,16 @@ body{
 }
 .container{
     width: 70%;
-    margin: 6em auto;
+    margin: 10em auto;
+}
+.work, .about-me, .summary, .educations, .experiences, .education, .experience{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.work, .about-me, .summary{
+    justify-content: center;
+    align-items: center;
 }
 
 /* Typography */
@@ -39,6 +48,11 @@ h1{
     font-weight: 700;
     font-size: 3rem;
 }
+
+section h2{
+    margin-bottom: 2em;
+}
+
 p{
     color: #8A8A8A;
     font-size: 16px;
@@ -116,13 +130,8 @@ span{
 
 /* About Me */
 .about-me{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: var(--secondary-color);
     padding: 5em 3em;
-    gap: 2em;
 }
 .about-info{
     display: flex;
@@ -131,13 +140,6 @@ span{
 }
 
 /* Work */
-.work{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2em;
-}
 
 .work-skill{
     display: flex;
@@ -151,4 +153,14 @@ span{
 }
 .skill-card p, .skill-card h3{
     margin: 1em 0;
+}
+
+/* Summary */
+.summary-details{
+    display: flex;
+    gap: 2em;
+}
+.education, .experience{
+    border-bottom: 1px solid gray;
+    padding-bottom: 1em;
 }
