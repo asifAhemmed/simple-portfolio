@@ -15,8 +15,7 @@
 /* Utilities */
 body{
     font-family: "Open Sans", sans-serif;
-    width: 80%;
-    margin: 2em auto;
+    
 }
 .btn-primary{
     border: 0;
@@ -39,11 +38,20 @@ h1{
 
 /* Header */
 
+header{
+    max-height: 100vh;
+    background-color: var(--secondary-color);
+    background-image: url(/images/developer.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+
 /* Navbar */
 .navbar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 1em 10em;
 }
 
 span{
@@ -65,4 +73,33 @@ span{
     text-decoration: none;
     color: black;
     font-weight: 700;
+}
+
+/* Banner */
+.banner{
+    padding: 0em 10em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(/images/header_bg.png);
+    background-repeat:no-repeat;
+    background-position-x:50rem;
+    background-position-y:10rem ;
+}
+
+.banner-img img{
+    width: 100%;
+}
+.banner-description{
+    margin:1em 0;
+}
+.btn-secondary{
+  margin-left: .25em;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  padding: .5em 1em;
+  background-color: var(--secondary-color);
+  border-radius: .3em;
+  font-size: 1rem;
+  font-weight: 700;
 }
