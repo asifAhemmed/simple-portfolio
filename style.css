@@ -164,3 +164,30 @@ span{
     border-bottom: 1px solid gray;
     padding-bottom: 1em;
 }
+
+/* Footer */
+footer{
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-around;
+    padding: 3em 5em;
+    gap: 3em;
+}
+.connect{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: 1em;
+}
+.connect ul{
+    list-style-type: none;
+    color: var(--primary-color);
+    display: flex;
+    gap: 1em;
+}
+
+.message input{
+    display: block;
+    margin: 1em 0;
+}
+
