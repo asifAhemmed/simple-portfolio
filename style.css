@@ -29,11 +29,19 @@ body{
 .btn-primary:hover{
     background-color: orange;
 }
+.container{
+    width: 70%;
+    margin: 6em auto;
+}
 
 /* Typography */
 h1{
     font-weight: 700;
     font-size: 3rem;
+}
+p{
+    color: #8A8A8A;
+    font-size: 16px;
 }
 
 /* Header */
@@ -102,4 +110,22 @@ span{
   border-radius: .3em;
   font-size: 1rem;
   font-weight: 700;
+}
+
+/* Main */
+
+/* About Me */
+.about-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);
+    padding: 5em 3em;
+    gap: 2em;
+}
+.about-info{
+    display: flex;
+    justify-content: space-between;
+    gap: 3em;
 }
